@@ -1,0 +1,102 @@
+.main {
+    width: 100%;
+    background: #F5F5F5;
+}
+
+.wraper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.calc {
+    width: 359px;
+    height: 663px;
+    background: #1C1C1C;
+    border-radius: 39px;
+    margin: 100px auto;
+}
+
+.result {
+    width: 100%;
+    height: 211px;
+    border-bottom: 1px solid #D9D9D9;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: end;
+}
+
+.result__number {
+    max-width: 100%;
+    height: 71px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+    color: #FFFFFF;
+    margin: 0 35px 0 0;
+
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 7px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.button:hover {
+    background: rgba(174, 174, 174, 1);
+}
+
+.button {
+    width: 80px;
+    height: 80px;
+    background: rgba(109, 109, 109, 1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button_big {
+    grid-column: span 2;
+    width: 167px;
+    height: 80px;
+    border-radius: 140px;
+}
+
+.button__title {
+    width: 66px;
+    height: 47px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+    /* identical to box height */
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    display: contents;
+}
+
+.button_upper {
+    background: rgba(174, 174, 174, 1);
+}
+
+.button_upper:hover {
+    background: rgba(109, 109, 109, 1);
+}
+
+.button_right {
+    background: rgba(255, 184, 0, 1);
+}
+
+.button_right:hover {
+    background: rgba(255, 184, 0, 0.8);
+}
