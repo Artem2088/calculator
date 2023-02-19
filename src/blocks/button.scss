@@ -1,0 +1,53 @@
+.button {
+    background:$color-btn-main;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &_big {
+        grid-column: span 2;
+        width: 167px;
+        height: 80px;
+        border-radius: 140px;
+    }
+
+    &__title {
+        @include font;
+        font-size: 40px;
+        color: $color-white;
+        display: contents;
+    }
+
+    &:hover {
+        background: $color-btn-upper;
+    }
+
+    &_upper {
+        background: $color-btn-upper;
+
+        &:hover {
+            background:$color-upper-hover;
+        }
+    }
+    &_right {
+        background:$color-btn-right;
+
+        &:hover {
+            background:$color-right-hover;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

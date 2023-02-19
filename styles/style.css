@@ -1,0 +1,80 @@
+.main {
+  width: 100%;
+}
+
+.wraper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.result {
+  height: 211px;
+  border-bottom: 1px solid #D9D9D9;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+.result__number {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  color: rgb(255, 255, 255);
+  margin: 0 35px 0 0;
+}
+
+.calc {
+  width: 359px;
+  height: 663px;
+  background: rgb(28, 28, 28);
+  border-radius: 39px;
+  margin: 100px auto;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 7px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.button {
+  background: rgb(109, 109, 109);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button_big {
+  grid-column: span 2;
+  width: 167px;
+  height: 80px;
+  border-radius: 140px;
+}
+.button__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  display: contents;
+}
+.button:hover {
+  background: rgb(174, 174, 174);
+}
+.button_upper {
+  background: rgb(174, 174, 174);
+}
+.button_upper:hover {
+  background: rgb(109, 109, 109);
+}
+.button_right {
+  background: rgb(255, 184, 0);
+}
+.button_right:hover {
+  background: rgba(255, 184, 0, 0.8);
+}
+
+/*# sourceMappingURL=style.css.map */
